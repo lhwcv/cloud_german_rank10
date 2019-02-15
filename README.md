@@ -17,6 +17,6 @@
 # run
   mkdir ./data<br>
   mkdir ./preprocess_dir<br>
-  (put the h5 raw file into data)<br>
+  (put the h5 raw file into ./data)<br>
   python preprocess.py<br>
   python train.py<br>
