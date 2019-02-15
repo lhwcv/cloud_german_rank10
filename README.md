@@ -15,8 +15,8 @@
      some semi-data, add to trainset and finetune or retrain the models.
      
 # run
-  mkdir ./data
-  mkdir ./preprocess_dir
-  (put the h5 raw file into data)
-  python preprocess.py
-  python train.py
+  mkdir ./data<br>
+  mkdir ./preprocess_dir<br>
+  (put the h5 raw file into data)<br>
+  python preprocess.py<br>
+  python train.py<br>
