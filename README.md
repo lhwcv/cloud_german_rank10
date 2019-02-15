@@ -14,3 +14,9 @@
   3. Predict softmax label of all testset, use threshold >0.85 to keep
      some semi-data, add to trainset and finetune or retrain the models.
      
+# run
+  mkdir ./data
+  mkdir ./preprocess_dir
+  (put the h5 raw file into data)
+  python preprocess.py
+  python train.py
